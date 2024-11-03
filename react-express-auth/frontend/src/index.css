@@ -1,0 +1,14 @@
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+  padding: 8px;
+  font-size: 14px;
+  border: 2px solid black;
+}
+
+
