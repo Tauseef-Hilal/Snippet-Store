@@ -1,0 +1,50 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 320px;
+  background-color: white;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 48px rgba(0, 0, 0, 0.18);
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+p {
+  text-align: center;
+}
+
+input[type="button"],
+input[type="submit"] {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover {
+  background-color: rgba(0, 0, 0, 0.804);
+}
+
+#password {
+  margin-bottom: 32px;
+}
+
+#question {
+  font-size: smaller;
+}
+
+#question > span {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#message {
+  font-size: 16px;
+  color: red;
+}
